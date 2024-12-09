@@ -62,7 +62,7 @@ dns:
 proxy-providers:
   蛋挞云_Subscription: &蛋挞云 #建立锚点
     type: http
-    url: "https://45.137.181.206/api/v1/client/subscribe?token=d7a5f10f5ed575cfcbd879cbdb2bfcf4"
+    url: "https://45.137.181.206/api/v1/client/subscribe?token=d7a5f10f5ed575cfcbd879cbdb2bfcf4&flag=clash"
     interval: 86400
     path: ./providers/proxy/蛋挞云.yaml
     health-check:
